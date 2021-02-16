@@ -1,19 +1,18 @@
 header img {
     position: relative;
-    left: 60px;
-    top:  20px;
     
+    top:  20px;
+    margin: 0 auto;
 }
 header ul li{
     display: inline;
     position: relative;
-    bottom: 25px;
-    margin-right: 50px;
+    bottom: 020px;
+    margin-right: 60px;
 }
 header ul {
-    margin: auto;
-    width: 50%;
-    
+    width: 960px;
+    margin-left: 280px;
 }
 header ul li a {
     text-decoration: none;
@@ -22,42 +21,63 @@ header ul li a {
     font-size: x-large;
 }
 header {
+    margin: 0 auto;
     background-color: #312c51;
     padding-bottom: 15px;
     
 }
+nav{
+    width: 960px;
+    margin: 0 auto;
+}
+main {
+    width: 960px;
+    margin: 0 auto;
+}
 main img {
+    padding-top: 0px;
     position: relative;
-    left: 60px;
-    padding-top: 30px;
-    
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+main div{
+    width: 960px;
 }
 main div img {
-    padding-top: 30px;
-    padding-right: 28px;
-   
+    margin-top: 0px;
+    margin-right: 26px; 
+}
+#third{
+    margin-right: 0px;
+    margin-top: 0px;
+}
+#last{
+    width: 50%;
+    bottom: 30px;
+
 }
 main p{
-    position: absolute;
+    position: relative;
   height: 300px;
   overflow: scroll;
-  width: 460px;
+  width: 450px;
   float: right;
-  right: 490px;
-  top: 1080px;
+  right: 0px;
   font-family: 'Pacifico', cursive;
+  bottom: 450px;
 }
 main h2{
     position: relative;
     left: 580px;
-    bottom: 400px;
+    bottom: 460px;
     font-size: x-large;
     font-family: 'Bebas Neue', cursive;
 }
 main button{
     position: relative;
-    left: 570px;
-    bottom: 70px;
+    left: 520px;
+    bottom: 135px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 50px;
@@ -71,6 +91,6 @@ background-color: #48426d;
 }
 footer {
     width: auto;
-    height: 150px;
+    height: 290px;
     background-color: #312c51;
 }
