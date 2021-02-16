@@ -1,0 +1,76 @@
+header img {
+    position: relative;
+    left: 60px;
+    top:  20px;
+    
+}
+header ul li{
+    display: inline;
+    position: relative;
+    bottom: 25px;
+    margin-right: 50px;
+}
+header ul {
+    margin: auto;
+    width: 50%;
+    
+}
+header ul li a {
+    text-decoration: none;
+    color: #f0c38e;
+    font-family: 'Bebas Neue', cursive; 
+    font-size: x-large;
+}
+header {
+    background-color: #312c51;
+    padding-bottom: 15px;
+    
+}
+main img {
+    position: relative;
+    left: 60px;
+    padding-top: 30px;
+    
+}
+main div img {
+    padding-top: 30px;
+    padding-right: 28px;
+   
+}
+main p{
+    position: absolute;
+  height: 300px;
+  overflow: scroll;
+  width: 460px;
+  float: right;
+  right: 490px;
+  top: 1080px;
+  font-family: 'Pacifico', cursive;
+}
+main h2{
+    position: relative;
+    left: 580px;
+    bottom: 400px;
+    font-size: x-large;
+    font-family: 'Bebas Neue', cursive;
+}
+main button{
+    position: relative;
+    left: 570px;
+    bottom: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 9px;
+}
+main button:hover{
+transition-delay: 350ms;
+color: #f1aa9b;
+background-color: #48426d;
+}
+footer {
+    width: auto;
+    height: 150px;
+    background-color: #312c51;
+}
